@@ -1,0 +1,14 @@
+
+Q.När använder man add respektiv commit?
+A."Add" används när man tillägger en fil till Index platsen där filerna kan kommmitas sedan. Commit används när man vill registrera ändringar osv på lokal repository för att sedan skicka den till remote repository.
+
+Q.Vad är pull repektive push?
+pull: Hämtar vad som finns i remote repository och sedan tillägga till lokal bransch
+push: Skickar in lokal repository till remote repository
+
+Q.När använder man log respektive status?
+Log: Används för att se kommithistorik
+status: Används för att kolla om det finns något som ska kommittas, vad som finns på Index samt status (Om filen är modifierad? osv)på dem.
+
+Q.Hur kan man formulera sig i sina commit-meddelanden?
+Man kan göra det genom att tillägga option -m efter git commit
